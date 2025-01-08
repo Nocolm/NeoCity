@@ -1,0 +1,7 @@
+#####
+# Database
+#####
+database:
+  url: "jdbc:mysql://localhost:3306/neocity" #a modifier ceci est une url localhost pour la database
+  username: user
+  password: ""

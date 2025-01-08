@@ -1,0 +1,16 @@
+name: NeoCity
+version: '1.0.0'
+main: fr.neocity.NeoCity
+api-version: '1.16'
+
+depend:
+  - ProtocolLib
+  - ItemsAdder
+
+permissions:
+  nc.commands.*:
+    description: "Donne l'accès au commandes"
+    default: true
+  nc.admins.commands.*:
+    description: "Donne l'accès aux commandes d'administration"
+    default: op
