@@ -69,3 +69,5 @@ Les noms doivent être en anglais, peu importe la chose nommée.
 | Methodes | Son nom commence par un verbe. En `camelCase` | `getInstance()` `clone()` |
 | Variables | Toujours en `camelCase`, évitez les abréviations et les noms raccourcis comme `nbr`. Pas d'`_` ou de `$` au début. L'utililité de la variable devrait être compréhensible en regardant le nom. | `int numberOfPlayers` `String playerName` |
 | Constantes et membres d'enums | Les constantes dont la déclaration commence par `static final` sont nommées en UPPER_SNAKE_CASE, avec comme pour les variables, un nom qui décrit clairement leur utilité. | `static final int MIN_WIDTH = 4;` |
+
+CONTRIBUTING.md repris de : https://github.com/ServerOpenMC/Plugin
